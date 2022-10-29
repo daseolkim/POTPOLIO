@@ -193,7 +193,7 @@ input[type="checkbox"] + label{cursor: url("../images/cusor2.png"), auto;}
 
 /* 모바일 */
 @media screen and (max-width: 640px){
-
+.logo img{width: 50%;}
 
 
 

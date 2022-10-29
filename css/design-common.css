@@ -249,7 +249,7 @@ body {
     height: 95px;
 }
 .window-content {
-    width: 960px;
+    width: 900px;
 }
 body {
     height: 100vh;  
@@ -343,11 +343,17 @@ body {
         width: 15%;
     }
     .window-content {
-        width: 450px;
+        width: 345px;
     }
     .design-right{
     width: 100%;
     }
-
+    .window-content .modal-close img {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+    }
 
 }

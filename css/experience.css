@@ -388,6 +388,7 @@ display: none;
         grid-template-columns: repeat(3, 140px);
         grid-template-rows: 140px 140px 140px;
         margin-left: -25%;
+        padding-top: 78%;
     }
 
     .experience1-right {
@@ -399,6 +400,7 @@ display: none;
     .experience1-right-top > h3 {
         font-size: 20px;
         padding-bottom: 500px;
+        width: 100%;
     }
     .experience1-right p {
         padding-left: 10px;
@@ -408,7 +410,11 @@ display: none;
         font-size: 20px;
         padding-left: 8%;
     }
-
+    .experience1-right-top h4 {
+        color: #fcca31;
+        font-size: 24px;
+        width: 50%;
+    }
     .check h3 {
         margin-left: -110px;
         margin-top: 40%;
