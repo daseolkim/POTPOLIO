@@ -1,0 +1,360 @@
+@charset "utf-8";
+
+
+
+body {
+    height: 100vh;  
+    background: url(../images/d-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.design{
+    width: 100%;
+}
+.design .design-wrap{
+    margin: 0 auto;
+}
+.design .design-right > img{
+    left: 45%;
+    top: 15%;
+    position: absolute;
+    width: 40%;
+}
+.design .design-right p{
+    color: #fcca31;
+    font-weight: bold;
+    position: absolute;
+    z-index: 99;
+    left: 56.7%;
+    top: 27%;
+}
+.design-right > a{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+.design-right a:hover{
+    background-color: #fcca31;
+    transition: 0.7s;
+    color: #fff;
+}
+.design .design-right h3{
+    margin-top: 39px;
+    width: 100%;
+}
+
+.design-right a:nth-child(2){
+    position: absolute;
+    left: 49%;
+    top: 33%;
+    z-index: 99;
+    width: 130px;
+    height: 130px;
+}
+.design-right a:nth-child(3){
+    position: absolute;
+    left: 51%;
+    top: 49%;
+    z-index: 99;
+    width: 130px;
+    height: 130px;
+}
+.design-right a:nth-child(4){
+    position: absolute;
+    left: 59%;
+    top: 59%;
+    z-index: 99;
+    width: 130px;
+    height: 130px;
+}
+.design-right a:nth-child(5){
+    position: absolute;
+    left: 68%;
+    top: 60%;
+    z-index: 99;
+    width: 130px;
+    height: 130px;
+}
+.design-right a:nth-child(6){
+    position: absolute;
+    left: 74%;
+    top: 48%;
+    z-index: 99;
+    width: 130px;
+    height: 130px;
+}
+.design .design-wrap .design-left{
+    position: relative;
+    margin-left: 3%;
+    margin-top: 45%;
+}
+.design .design-wrap .design-left > img{
+    position: absolute;
+    left: 12%;
+    top: -385%;
+}
+.design .design-wrap .design-left > img:hover{
+    transform: scale(0.99);
+    filter: grayscale(10);
+}
+
+.design .design-wrap .design-left h3{
+    color: #fcca31;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.design .design-wrap .design-left p{
+    color: #585858;
+    font-size: 14px;
+    font-weight: 900;
+}
+.design-right{
+    width: 100%;
+}
+.content .content-wrap{width: 100%; margin: 0 auto;}
+
+
+
+.design .design-wrap .design-left{
+    position: relative;
+}
+.design .design-wrap .design-left:hover::after{
+    position: absolute;
+    content: "V I E W";
+    top: -205%;
+    left: 27.5%;
+    font-size: 2.5vw;
+    color: #fff;
+    z-index: 999;
+    font-weight: bold;
+}
+/* 모달 */
+
+
+.window{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    display: none;
+}
+
+.window-content{
+    width: 1200px;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-y: scroll;
+    z-index: 999999999;
+    display: none;
+}
+.window-content img{width: 100%;}
+.work-img .window-content img{width: 100%;}
+
+/* 모달창 버튼 */
+.window-content .modal-close img {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 테블릿 */
+@media screen and (max-width: 1200px){
+.design .design-right > img {
+    left: 48%;
+    top: 23%;
+    position: absolute;
+    width: 600px;
+    height: 555px;
+}
+.design .design-wrap .design-left > img {
+    left: 1%;
+    top: -372%;
+    width: 53%;
+}
+.design .design-wrap .design-left {
+    margin-top: 72%;
+}
+.design .design-right p {
+    left: 62.7%;
+    top: 32%;
+    width: 89px;
+}
+.design-right > a {
+    width: 95px;
+    height: 95px;
+    font-size: 11px;
+}
+.design .design-right h3 {
+    margin-top: 31px;
+    width: 100%;
+}
+.design-right a:nth-child(2) {
+    left: 53%;
+    top: 36%;
+    width: 95px;
+    height: 95px;
+}
+.design-right a:nth-child(3) {
+    left: 54%;
+    top: 48%;
+    width: 95px;
+    height: 95px;
+}
+.design-right a:nth-child(4) {
+    position: absolute;
+    left: 63%;
+    top: 58%;
+    width: 95px;
+    height: 95px;
+}
+.design-right a:nth-child(5) {
+    left: 77%;
+    top: 59%;
+    width: 95px;
+    height: 95px;
+
+}
+.design-right a:nth-child(6) {
+    left: 85%;
+    top: 49%;
+    width: 95px;
+    height: 95px;
+}
+.window-content {
+    width: 900px;
+}
+body {
+    height: 100vh;  
+    background: url(../images/d-bg.jpg) no-repeat center;
+    width: 100%;
+    height: auto;
+}
+.design-right{
+    width: 100%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* 모바일 */
+@media screen and (max-width: 640px){
+    .design .design-wrap .design-left > img {
+        left: 11%;
+        top: -402%;
+        width: 75%;
+    }
+    .design .design-right > img {
+        left: 33%;
+        top: 26%;
+        width: 66%;
+    }
+    .design .design-wrap {
+        margin: 0 auto;
+        padding-top: 105%;
+        width: 100%;
+    }
+    .design .design-right > img {
+        left: 6%;
+        top: 43%;
+        width: 83%;
+        height: 36%;
+    }
+    .design .design-right h3 {
+        margin-top: 24px;
+        width: 100%;
+    }
+    .design-right a:nth-child(2) {
+        left: 14%;
+        top: 53%;
+        width: 75px;
+        height: 75px;
+    }
+    .design-right a:nth-child(3) {
+        left: 18%;
+        top: 61%;
+        width: 75px;
+        height: 75px
+    }
+    .design-right a:nth-child(4) {
+        left: 33%;
+        top: 67%;
+        width: 75px;
+        height: 75px;
+    }
+    .design-right a:nth-child(5) {
+    left: 54%;
+    top: 67%;
+    width: 75px;
+    height: 75px;
+    }
+    .design-right a:nth-child(6) {
+        left: 65%;
+        top: 59%;
+        width: 75px;
+        height: 75px;
+    }
+    .design-right > a {
+        width: 75px;
+        height: 75px;
+        font-size: 10px;
+    }
+    .design .design-right p {
+        left: 28%;
+        top: 49.5%;
+        font-size: 13px;
+        width: 15%;
+    }
+    .window-content {
+        width: 345px;
+    }
+    .design-right{
+    width: 100%;
+    }
+    .window-content .modal-close img {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+    }
+
+}
