@@ -1,7 +1,4 @@
 @charset "utf-8";
-
-
-
 body {
     height: 100vh;  
     background: url(../images/d-bg.jpg) no-repeat center;
@@ -53,7 +50,7 @@ body {
 .design-right a:nth-child(2){
     position: absolute;
     left: 49%;
-    top: 33%;
+    top: 34%;
     z-index: 99;
     width: 130px;
     height: 130px;
@@ -61,7 +58,7 @@ body {
 .design-right a:nth-child(3){
     position: absolute;
     left: 51%;
-    top: 49%;
+    top: 50%;
     z-index: 99;
     width: 130px;
     height: 130px;
@@ -69,15 +66,15 @@ body {
 .design-right a:nth-child(4){
     position: absolute;
     left: 59%;
-    top: 59%;
+    top: 60%;
     z-index: 99;
     width: 130px;
     height: 130px;
 }
-.design-right a:nth-child(5){
+.design-right a:nth-child(5) {
     position: absolute;
-    left: 68%;
-    top: 60%;
+    left: 69%;
+    top: 61%;
     z-index: 99;
     width: 130px;
     height: 130px;
@@ -356,5 +353,10 @@ body {
         top: 15px;
         right: 15px;
     }
-
+    body {
+        height: 100vh;  
+        background: url(../images/d-bg.jpg) no-repeat center;
+        width: 100%;
+        height: auto;
+    }
 }

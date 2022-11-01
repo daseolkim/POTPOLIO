@@ -229,7 +229,12 @@ body {
 .window-content {
     width: 960px;
 }
-
+body {
+    height: 100vh;  
+    background: url(../images/w-bg3.jpg) no-repeat center;
+    width: 100%;
+    height: auto;
+}
 
 
 

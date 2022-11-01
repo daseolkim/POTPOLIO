@@ -176,6 +176,27 @@ display: none;
 }
 .chef-top p{font-size: 18px; font-weight: bold; margin-top: 19.5%; margin-left: -11.5%;}
 
+.chef-top img{
+    filter: grayscale(10);
+}
+.chef-top img:hover{
+    filter: grayscale(0);
+}
+.chef-bottom img{
+    filter: grayscale(10);
+}
+.chef-bottom img:hover{
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
 .chef-bottom{display: flex; justify-content: center; margin-left: -1%;}
 .chef-bottom p{font-size: 18px; font-weight: bold; text-align: left; margin-top: 12%;margin-left: 1%; position: relative;}
 .chef-bottom p::after{

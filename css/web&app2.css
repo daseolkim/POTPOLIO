@@ -186,7 +186,12 @@ body {
 
 .work-content .work-img .mobile{width: 28%;margin-left: 70%; margin-top: -61%;}
 .work-content .work-img .mobile::after{width: 87%; height: 78%; left: 7px; top: 41px;}
-
+body {
+    height: 100vh;  
+    background: url(../images/w-bg2.jpg) no-repeat center;
+    width: 100%;
+    height: auto;
+}
 
 
 
